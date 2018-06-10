@@ -16,9 +16,9 @@ type Routes []Route
 var routes = Routes{
 
 	Route{
-		"Test",
+		"Test Route",
 		"Get",
-		"/api/testjson",
-		JsonTest,
+		"/api/Test",
+		Tester,
 	},
 }
